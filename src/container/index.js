@@ -1,0 +1,6 @@
+export { default as Header } from './Header'
+export { default as Features } from './Features'
+export { default as Features2 } from './Features2'
+export { default as CTA } from './CTA'
+export { default as Blog } from './Blog'
+export { default as Testimonial } from './Testimonial'

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-default);
+}
+
+button {
+  @apply text-sm text-center px-5 py-2.5 transition duration-300;
+}
+
+a {
+  @apply transition duration-300;
+}
+
+body {
+  background: var(--bg-primary);
+}
+
+.bg__primary {
+  background: var(--bg-primary);
+}
+
+.bg__secondary {
+  background: var(--bg-secondary);
+}
+
+.hero__background {
+  background-image: 
+    radial-gradient(closest-corner circle at 0% 30%,#7214FF -100%, rgba(114, 20, 255, 0.3), 50%,transparent),
+    radial-gradient(closest-corner circle at 100% 75%, #32CAFD -100%, rgba(50, 202, 253, 0.2), 50%,transparent);
+}
+
+.card__background {
+  background-image: 
+    radial-gradient(circle at 5% 95%,#7214FF -20%, rgba(114, 20, 255, 0.3), 20%,transparent),
+    radial-gradient(circle at 95% 5%, #32CAFD -20%, rgba(50, 202, 253, 0.3), 20%,transparent);
+}
+
+.card-2__background {
+  background-image: 
+    radial-gradient(circle at 5% 5%,#7214FF -20%, rgba(114, 20, 255, 0.3), 20%,transparent),
+    radial-gradient(circle at 95% 5%, #32CAFD -20%, rgba(50, 202, 253, 0.3), 20%,transparent),
+    url(./assets/community-bg-shape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text__gradient {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
